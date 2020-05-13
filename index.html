@@ -10,21 +10,40 @@
     <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
     <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-    </style>
-<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+.video {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+   </style>
+
+<script  src="jQueryAssets/jquery-1.11.1.min.js">
+	  </script>
+
 </head>
+	
 <body background="https://c-ssl.duitang.com/uploads/item/201806/17/20180617230837_U5QGm.jpeg"
-		style=" background-repeat:no-repeat;  background-size:100% 100%;  background-attachment: fixed;width:80%; margin-left: auto; margin-right: auto;" >
-     
+	  style=" background-repeat:no-repeat;  background-size:100% 100%;  background-attachment: fixed;width:80%; margin-left: auto; margin-right: auto;" >
 
-<iframe src="https://player.bilibili.com/player.html?aid=61926552&bvid=BV1ut411u7HB&cid=107672163&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+ <p class="video"><iframe   src="https://player.bilibili.com/player.html?aid=61926552&bvid=BV1ut411u7HB&cid=107672163&page=1" allowfullscreen="allowfullscreen"   scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe></p>
 
-<div class="row" style="width:100%"  > 
-  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589307821351&di=911a8de7ae653f9714f43ffd4a71c1d1&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F3210e1758055dea3461512dea359f2c9d43552051af7c-U7odpn_fw658" alt="" width="300" height="448" style="width:33%;float:left;"class="rounded-circle"/>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 style="width:33%;float:center;" src="https://music.163.com/outchain/player?type=0&id=2527160263&auto=1&height=430"> </iframe>
+	
+<div class="row"  > 
+  <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589307821351&di=911a8de7ae653f9714f43ffd4a71c1d1&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F3210e1758055dea3461512dea359f2c9d43552051af7c-U7odpn_fw658" alt="" width="300" height="448" class="rounded-circle col-md-4"/>
+<iframe src="https://music.163.com/outchain/player?type=0&id=2527160263&auto=1&height=430" width=330 marginwidth="0" height=450 marginheight="0" frameborder="no" class="col-md-4" border="0"> </iframe>
 
   
-  <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=431157097,1581717196&fm=26&gp=0.jpg" alt="" width="300" height="448" style="width:33%;float:right;" class="rounded-circle"/>
+  <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=431157097,1581717196&fm=26&gp=0.jpg" alt="" width="300" height="448" class="rounded-circle col-md-4"/>
   
 </div>
 <div class="row">
@@ -44,7 +63,7 @@
               1355 Market St, Suite 900<br>
               San Francisco, CA 94103<br>
               <abbr title="Phone">P:</abbr> (123) 456-7890<br>
-              <a href="mailto:#">first.last@example.com</a>
+              <a href="mailto:#">1304345523@qq.com</a>
             </address>
           </div>
         </div>
@@ -158,10 +177,12 @@
       <hr>
       <h2>Contact</h2>
       <hr>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8  col-12 jumbotron">
-            <form>
+<div class="justify-content-center row"><a href="https://space.bilibili.com/243711178">&nbsp;哔哩哔哩</a><a href="https://github.com/sinyehcx">&nbsp; github&nbsp; &nbsp;</a><a href="https://y.qq.com/n/yqq/singer/0025xTsb4EXrNL.html">QQ音乐&nbsp;&nbsp;</a>
+        <a href="https://weibo.com/sinyestudio/profile?rightmod=1&wvr=6&mod=personinfo">新浪微博</a></div>
+<div class="container">
+  <div class="row justify-content-center">
+<div class="col-lg-8  col-12 jumbotron">
+      <form>
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Name">
@@ -182,7 +203,7 @@
             </form>
           </div>
         </div>
-      </div>
+    </div>
       <hr>
       <footer class="text-center">
         <div class="container">
